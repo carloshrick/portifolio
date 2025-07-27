@@ -198,6 +198,7 @@ h1 {
     opacity: 0;
     transition: opacity 0.3s;
     text-align: center;
+    max-height: 100%;
 }
 
 .projeto:hover .overlay {
@@ -373,7 +374,7 @@ position: absolute;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end; /* força a barra para a base */
-  padding-bottom: 1rem; /* espaçamento interno */
+  padding-bottom: 10rem; /* espaçamento interno */
   gap: 0.5rem;
 }
 
@@ -551,7 +552,10 @@ position: absolute;
   #cardsprojetos {
     flex-direction: column;
     padding: 1rem;
+    justify-content: center;
+    margin-left: -2rem;
   }
+
   .icone3 {
     height: 10rem;
     width: 10rem;
